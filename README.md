@@ -45,3 +45,9 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 - **HTML5:** Estruturação semântica e acessível do código, com uso correto de tags como `<header>`, `<nav>`, `<section>`, `<article>`, `<figure>` e `<footer>`.
 - **CSS3:** Estilização visual (arquivo `style.css`), responsável pelo layout responsivo, tipografia, cores da marca e efeitos nos botões.
+
+---
+
+---
+
+> ⚠️ **Observação / Disclaimer:** Este projeto foi desenvolvido **apenas para fins de estudo e portfólio**. O **DeliveryHUB** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp informado nos botões é meramente fictício (gerado para testes de integração).
