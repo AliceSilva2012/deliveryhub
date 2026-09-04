@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; /*Rolamento de tela mais suave.*/
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  background-color: #ff6b35;
+  display: inline-block;
+  padding: 12px 24px; /*Em cima e embaixo, dos lados*/
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  filter: brightness(0.9); /*Quando o dedo/ mouse passar em cima do botão dá uma escurecida.*/
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #ff6b35;
+  color: #ff6b35;
+}
+
+.btn-outline:hover {
+  background: #ff6b35;
+  color: #fff;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #ff6b35;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  box-shadow: 0 10px 50px #bbb;
+  z-index: 99;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    
+}
+
+header nav a {
+  font-weight: 600;
+}
+
+header nav a:hover {
+  color: #ff6b35;
+}
+
+.hero-wrapper {
+  background: linear-gradient(135deg, #fff9f5, #fff); /*Degradê*/
+  padding-top: 80px; /*Espacinho*/
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+  margin: 0 auto; 
+  padding: 60px 20px;
+}
+
+hr {
+  width: 90%;
+  height: 3px;
+  background-color: #ff6b35;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+.hero img {
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(255,107,53,0.8);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-stats li {
+  display: flex; 
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.hero-stats span {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.hero-stats strong {
+  font-size: 28px;
+  color: #333;
+}
+
+.cardapio {
+  padding: 80px 5%;
+  text-align: center;
+}
+
+.cardapio h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.cardapio p {
+  color: #6c757d;
+  margin-bottom: 50px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-grid li {
+  position: relative;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px #bbb;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.menu-grid li img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /*Serve pra imagem não ficar toda esticada mas ela ocupar o que ela conseguir no card*/
+}
+
+.badge { /*Esse é aquele negócio do "mais vendido"*/
+  position: absolute; /*Em um lugar específico que eu quero*/
+  top: 15px; 
+  left: 15px;
+  background-color: #ff6b35;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.menu-grid h3 {
+  padding: 15px 20px 10px; /*Em cima, dos lados, embaixo.*/
+  font-size: 22px;
+}
+
+.menu-grid p {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.menu-grid strong { /*O preço que fica no card*/
+  display: block; /*Pra ocupar a linha inteira*/
+  padding: 5px 20px 5px;
+  font-size: 25px;
+  color: #ff6b35;
+}
+
+.menu-grid li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 60px rgba(255,107,53,0.8);
+}
+
+.menu-grid .btn {
+  display: block;
+  margin: 10px 20px 20px; /*Em cima, dos lados, embaixo*/
+  text-align: center;
+  padding: 10px;
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 5%; 
+  background-color: #f8f9fa;
+}
+
+.sobre img {
+  border-radius: 16px;
+  box-shadow: 0 10px 40px black;
+}
+
+.sobre h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.sobre article {
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+.sobre ul {
+  display: flex;
+  flex-direction: column; /*Pra toda essa parte do texto ficsr uma do lado da outra.*/
+  gap: 15px;
+  
+  margin-top: 20px;
+}
+
+.contato {
+  padding: 80px 5%;
+  text-align: center;
+  background: linear-gradient(135deg, #ff6b35, #e55a2b);
+}
+
+.contato h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contato p {
+  color: rgba(255,255,255,0.9);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 60px 5% 20px;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+    hr {
+        height: 6px;
+    }
+
+    .sobre {
+      grid-template-columns: 1fr 1fr; 
+    }
+
+    .hero {
+      margin-top: 30px; 
+      grid-template-columns: 1fr 1fr; /*Divide a tela em duas partes, uma pro texto e outra pra imagem.*/
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: repeat(4,1fr); /*Divide os textos em quatro colunas, por toda tela (1fr).*/
+    }
+    footer .copy {
+      grid-column: 1 / -1;
+      text-align: center;
+    }
+}
+
+footer .copy {
+  grid-column: 1 / -1;
+  text-align: center;
+}
