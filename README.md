@@ -50,7 +50,7 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ## 🌎 Teste meu projeto no seu navegador! 
 
-- 🍔 **Deliveryhub:** [VER PROJETO](https://deliveryhhub.netlify.app)
+- 🍔 **Deliveryhub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://deliveryhhub.netlify.app)
 ---
 
 > ⚠️ **Observação :** Este projeto foi desenvolvido **apenas para fins de estudo e portfólio**. O **DeliveryHUB** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp informado nos botões é meramente fictício (gerado para testes de integração).
