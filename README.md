@@ -5,6 +5,9 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+> ⚠️ **Observação :** Este projeto foi desenvolvido **apenas para fins de estudo e portfólio**. O **DeliveryHUB** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp informado nos botões é meramente fictício (gerado para testes de integração).
+> Landing page moderna e responsiva para a hamburgueria artesanal DeliveryHUB, focada em conversão rápida de pedidos via WhatsApp.
+
 ---
 
 ## 💻 Sobre o Projeto
@@ -54,7 +57,32 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ---
 
-> [!NOTE]
-> ⚠️ **Observação :** Este projeto foi desenvolvido **apenas para fins de estudo e portfólio**. O **DeliveryHUB** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp informado nos botões é meramente fictício (gerado para testes de integração).
-> Landing page moderna e responsiva para a hamburgueria artesanal DeliveryHUB, focada em conversão rápida de pedidos via WhatsApp.
+## 🚀 Como Executar o Projeto Localmente
 
+### Pré-requisitos
+- Um navegador web moderno (Google Chrome, Firefox, Edge, etc.).
+- [Git](https://git-scm.com) instalado na máquina.
+- Um editor de código como o [VS Code](https://code.visualstudio.com/) (opcional).
+
+### ☕ Passo a Passo
+
+1. **Clone este repositório:**
+   ```bash
+   git clone https://github.com/AliceSilva2012/deliveryhub.git
+   ```
+
+2. **Acesse a pasta do projeto:**
+   ```bash
+   cd deliveryhub
+   ```
+
+3. **Execute a aplicação:**
+   - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
+   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+
+---
+
+## 📁 Estrutura de Arquivos
+
+├── index.html     # Estrutura HTML do site. 
+└── style.css      # Estilização visual, cores e responsividade. 
