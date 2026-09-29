@@ -84,6 +84,7 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ## 📁 Estrutura de Arquivos
 
+```text
 graph TD
     A[Usuário] -->|Acessa a Landing Page| B[Home (#home)]
     B -->|Clique em "Ver Cardápio"| C[Cardápio (#cardapio)]
@@ -98,3 +99,4 @@ graph TD
     style C fill:#ccf,stroke:#333,stroke-width:2px
     style G fill:#9f9,stroke:#333,stroke-width:2px
     style H fill:#ff9,stroke:#333,stroke-width:2px
+```
