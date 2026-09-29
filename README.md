@@ -86,17 +86,9 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ```mermaid
 graph TD
-    A[Usuário] -->|Acessa a Landing Page| B[Home]
-    B -->|Clique em Ver Cardápio| C[Cardápio]
-    B -->|Clique em Pedir Agora| G[WhatsApp]
-    C -->|Escolha o Item| D[Fazer Pedido]
-    D -->|Enviar Mensagem| G
-    B -->|Navegação| E[Sobre]
-    B -->|Navegação| F[Contato]
-    G -->|Conversa com Restaurante| H[Confirmação do Pedido]
+    A[deliveryhub] --> B[index.html]
+    A --> C[style.css]
 
-    style B fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#ccf,stroke:#333,stroke-width:2px
-    style G fill:#9f9,stroke:#333,stroke-width:2px
-    style H fill:#ff9,stroke:#333,stroke-width:2px
+    style B fill:#e34f26,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#1572b6,stroke:#fff,stroke-width:2px,color:#fff
 ```
