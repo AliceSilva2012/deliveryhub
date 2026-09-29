@@ -84,7 +84,17 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ## 📁 Estrutura de Arquivos
 
-```text
-├── index.html     # Estrutura HTML do site. 
-└── style.css      # Estilização visual, cores e responsividade. 
-```
+graph TD
+    A[Usuário] -->|Acessa a Landing Page| B[Home (#home)]
+    B -->|Clique em "Ver Cardápio"| C[Cardápio (#cardapio)]
+    B -->|Clique em "Pedir Agora"| G[WhatsApp]
+    C -->|Escolha o Item| D[Fazer Pedido]
+    D -->|Enviar Mensagem| G
+    B -->|Navegação| E[Sobre (#sobre)]
+    B -->|Navegação| F[Contato (#contato)]
+    G -->|Conversa com Restaurante| H[Confirmação do Pedido]
+
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#ccf,stroke:#333,stroke-width:2px
+    style G fill:#9f9,stroke:#333,stroke-width:2px
+    style H fill:#ff9,stroke:#333,stroke-width:2px
