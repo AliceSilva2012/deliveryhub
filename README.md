@@ -84,5 +84,7 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ## 📁 Estrutura de Arquivos
 
+```text
 ├── index.html     # Estrutura HTML do site. 
 └── style.css      # Estilização visual, cores e responsividade. 
+```
