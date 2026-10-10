@@ -53,7 +53,7 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ## 🌎 Teste meu projeto no seu navegador! 
 
-- 🍔 **Deliveryhub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://deliveryhhub.netlify.app)
+- 🍔 **Deliveryhub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/deliveryhub/)
 
 ---
 
