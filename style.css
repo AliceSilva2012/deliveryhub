@@ -303,31 +303,98 @@ footer {
   color: #fff;
 }
 
-@media (min-width: 768px) {
-    hr {
-        height: 6px;
-    }
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+    gap: 10px;
+  }
 
-    .sobre {
-      grid-template-columns: 1fr 1fr; 
-    }
+  header nav {
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
 
-    .hero {
-      margin-top: 30px; 
-      grid-template-columns: 1fr 1fr; /*Divide a tela em duas partes, uma pro texto e outra pra imagem.*/
-    }
+  header nav a {
+    font-size: 14px;
+  }
 
-    footer {
-      display: grid;
-      grid-template-columns: repeat(4,1fr); /*Divide os textos em quatro colunas, por toda tela (1fr).*/
-    }
-    footer .copy {
-      grid-column: 1 / -1;
-      text-align: center;
-    }
+  .logo {
+    font-size: 26px; 
+  }
+
+  .hero-wrapper {
+    padding-top: 130px; 
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 30px 20px;
+    text-align: center;  
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .hero-stats {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .hero-stats li {
+    font-size: 14px;
+  }
+
+  .hero-stats strong {
+    font-size: 22px;
+  }
+ 
+  .cardapio {
+    padding: 40px 20px;
+  }
+
+  .cardapio h2 {
+    font-size: 28px;
+  }
+
+  .cardapio p {
+    margin-bottom: 30px;
+  }
+
+  footer {
+    grid-template-columns: 1fr; /* Transforma as duas colunas do rodapé em uma só */
+    text-align: center;
+    gap: 30px;
+    padding: 40px 20px 20px;
+  }
 }
 
-footer .copy {
-  grid-column: 1 / -1;
-  text-align: center;
+@media (min-width: 769px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10%;
+  }
+
+  header nav {
+    margin-bottom: 0;
+    gap: 30px;
+  }
+
+  .hero {
+    grid-template-columns: 1.2fr 0.8fr;
+  }
 }
