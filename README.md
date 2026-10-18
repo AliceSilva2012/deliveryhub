@@ -5,7 +5,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-> ⚠️ **Observação :** Este projeto foi desenvolvido **apenas para fins de estudo e portfólio**. O **DeliveryHUB** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp informado nos botões é meramente fictício (gerado para testes de integração).
+> ⚠️ **Observação :** Este projeto foi desenvolvido **apenas para fins de estudo e portfólio**. O **DeliveryHUB** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp informado nos botões é meramente fictício (gerado para testes de integração e que não está mais disponível).
 > Landing page moderna e responsiva para a hamburgueria artesanal DeliveryHUB, focada em conversão rápida de pedidos via WhatsApp.
 
 ---
