@@ -1,28 +1,33 @@
-# DeliveryHUB 🍔🛵
+# DeliveryHub 🍔🛵
 
-![Interface do DeliveryHub](https://hubportfolio.netlify.app/img/projeto4.png)
+<img width="1440" height="900" alt="Interface do projeto DeliveryHub" src="https://alicesilva2012.github.io/portfolio/img/projeto4.png" />
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Acessar_Cardápio-E63946?style=for-the-badge&logo=githubpages&logoColor=white)](https://alicesilva2012.github.io/deliveryhub/)
 
-> ⚠️ **Observação :** Este projeto foi desenvolvido **apenas para fins de estudo e portfólio**. O **DeliveryHUB** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp informado nos botões é meramente fictício (gerado para testes de integração e que não está mais disponível).
+> Uma landing page responsiva e interativa para uma hamburgueria artesanal, com cardápio em destaque, provas sociais e botões de pedido direto via WhatsApp.
+
+> [!IMPORTANT]
+> **Projeto Fictício (Estudo & Portfólio):** O **DeliveryHub** não é um estabelecimento real, nenhum produto está à venda e o número de WhatsApp vinculado aos botões é meramente ilustrativo para demonstração de redirecionamento.
 
 ---
 
 ## 💻 Sobre o Projeto
 
-O **DeliveryHUB** é uma plataforma web criada com o objetivo de apresentar o cardápio de uma hamburgueria artesanal de forma atraente, intuitiva e direta. Através de um layout focado em alta conversão e experiência do usuário (UX/UI), os clientes podem visualizar fotos dos pratos, preços, badges de destaques, depoimentos/métricas e realizar seus pedidos instantaneamente pelo WhatsApp.
+O **DeliveryHub** é uma aplicação front-end criada com o objetivo de apresentar o cardápio de uma hamburgueria artesanal de forma atraente, intuitiva e direta. Através de um layout focado em experiência do usuário (UX/UI), os visitantes podem visualizar fotos dos pratos, preços, selos de destaque, métricas de atendimento e iniciar pedidos diretamente pelo WhatsApp.
 
-O projeto traz uma navegação rápida por seções (Início, Cardápio, Sobre e Contato), além de reforçar a identidade visual da marca com selos de garantia e depoimentos.
+O projeto conta com navegação rápida por âncoras entre as seções (*Início*, *Cardápio*, *Sobre* e *Contato*), reforçando a identidade visual da marca com selos de garantia e depoimentos.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- **Navegação Dinâmica e Âncoras:** Links rápidos para navegar suavemente entre as seções da página (`#home`, `#cardapio`, `#sobre`, `#contato`).
+- **Navegação Fluida por Âncoras:** Links rápidos no menu superior para navegar suavemente entre as seções (`#home`, `#cardapio`, `#sobre`, `#contato`).
 - **Métricas de Impacto:** Seção de destaque com provas sociais (`+500 Clientes`, `Avaliação 4.8`, `Garantia de 40min`).
-- **Cardápio Interativo com Badges:** Apresentação visual dos pratos com preços e selos de destaque (*Mais vendido*).
-- **Integração com WhatsApp:** Botões de CTA (Call to Action) direcionando direto para a conversa no WhatsApp com mensagem personalizada preenchida.
+- **Cardápio Estilizado com Badges:** Apresentação visual dos pratos com preços e etiquetas de destaque (*Mais vendido*).
+- **Integração com WhatsApp:** Botões de ação (CTA) que redirecionam para o WhatsApp com mensagem de pedido pré-preenchida.
 - **Seção "Nossa História":** Apresentação dos pilares do restaurante (carne selecionada, entrega rápida e pagamento facilitado).
 - **Informações Institucionais:** Rodapé completo com horários de funcionamento, telefone, endereço e redes sociais.
 
@@ -30,7 +35,7 @@ O projeto traz uma navegação rápida por seções (Início, Cardápio, Sobre e
 
 ## 📊 Cardápio em Destaque
 
-Abaixo está uma amostra dos principais itens disponíveis no cardápio do DeliveryHUB:
+Abaixo está uma amostra dos principais itens apresentados no cardápio do DeliveryHub:
 
 | Item | Descrição | Preço | Destaque |
 | :--- | :--- | :---: | :---: |
@@ -45,14 +50,17 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5:** Estruturação semântica e acessível do código, com uso correto de tags como `<header>`, `<nav>`, `<section>`, `<article>`, `<figure>` e `<footer>`.
-- **CSS3:** Estilização visual (arquivo `style.css`), responsável pelo layout responsivo, tipografia, cores da marca e efeitos nos botões.
+- **HTML5:** Estruturação semântica e acessível utilizando `<header>`, `<nav>`, `<section>`, `<article>`, `<figure>` e `<footer>`.
+- **CSS3:** 
+  - Layouts responsivos construídos com **Flexbox** e **CSS Grid**.
+  - Rolagem suave (`scroll-behavior: smooth`), tipografia personalizada e microinterações de `:hover` nos cards e botões.
+- **WhatsApp Click to Chat (`wa.me`):** Redirecionamento direto com parâmetros de texto codificados na URL.
 
 ---
 
-## 🌎 Teste meu projeto no seu navegador! 
+## 🌎 Teste meu projeto no seu navegador!
 
-- 🍔 **Deliveryhub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/deliveryhub/)
+- **DeliveryHub:** [VEJA ESTE PROJETO NO SEU NAVEGADOR!](https://alicesilva2012.github.io/deliveryhub/)
 
 ---
 
@@ -76,8 +84,8 @@ Abaixo está uma amostra dos principais itens disponíveis no cardápio do Deliv
    ```
 
 3. **Execute a aplicação:**
-   - Dê um duplo clique no arquivo `index.html` para abri-lo no navegador, ou
-   - Clique com o botão direito no `index.html` e selecione **Open with Live Server**.
+   - Dê um duplo clique no arquivo index.html para abri-lo no navegador, ou
+   - Clique com o botão direito no index.html e selecione Open with Live Server.
 
 ---
 
