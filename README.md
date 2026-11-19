@@ -84,6 +84,7 @@ Abaixo está uma amostra dos principais itens apresentados no cardápio do Deliv
    ```
 
 3. **Execute a aplicação:**
+
    - Dê um duplo clique no arquivo index.html para abri-lo no navegador, ou
    - Clique com o botão direito no index.html e selecione Open with Live Server.
 
